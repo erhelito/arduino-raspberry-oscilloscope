@@ -1,6 +1,11 @@
 # Arduino/Raspberry Pi Pico oscilloscope
 The goal of this project is to create a simple oscilloscope using a Raspberry Pi Pico or an Arduino (switching from Arduino to Pico is easy).
 
+## Dependencies
+- pyserial
+- matplotlib
+- numpy
+
 ## To do
 - [x] Create the base of the interface
 - [ ] Correct the DPI
