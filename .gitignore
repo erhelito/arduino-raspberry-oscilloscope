@@ -1,4 +1,5 @@
 .vscode
+__pycache__
 raspberry/.vscode
 raspberry/.micropico
 closing.py
@@ -10,3 +11,4 @@ tuto.txt
 todo.txt
 graphic.py
 scaling.py
+test scaling.py
