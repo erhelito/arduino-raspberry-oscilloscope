@@ -7,11 +7,11 @@ The goal of this project is to create a simple oscilloscope using a Raspberry Pi
 - numpy
 
 ## To do
-- [] Create the base of the interface
+- [ ] Create the base of the interface
 - [ ] Correct the DPI
 - [ ] Add interface for FFT
 - [ ] Add interface for live plot
-- [ ] Retrieve the data from the ADC and plot it
+- [x] Retrieve the data from the ADC and plot it
 - [ ] Add live plot feature
 - [ ] Add FFT feature
 - [ ] Maths mode
