@@ -5,6 +5,7 @@ The goal of this project is to create a simple oscilloscope using a Raspberry Pi
 - pyserial
 - matplotlib
 - numpy
+- time
 
 ## To do
 - [ ] Create the base of the interface
