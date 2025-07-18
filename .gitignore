@@ -2,8 +2,7 @@
 __pycache__
 raspberry/.vscode
 raspberry/.micropico
-closing.py
-fenetres.py
+closing_windows.py
 test.py
 V1.py
 V2.py
@@ -11,4 +10,3 @@ tuto.txt
 todo.txt
 graphic.py
 scaling.py
-test scaling.py
