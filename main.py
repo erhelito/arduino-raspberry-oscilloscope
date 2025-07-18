@@ -45,6 +45,7 @@ class SerialPlotter:
         Update the plot with new data from the serial port.
         This function is called at each frame of the animation.
         """
+
         d1, d2 = modules.retrieve_data(self.ser)
         d1, d2 = modules.convert_to_voltage(d1, d2)
         
@@ -54,11 +55,13 @@ class SerialPlotter:
         self.data1.append(d1)
         self.data2.append(d2)
 
+        # Limit the number of points to the maximum defined
         if len(self.data1) > self.max_points:
             self.data1.pop(0)
             self.data2.pop(0)
             self.time_list.pop(0)
 
+        # Adapt the time list to start from 0
         time_list_adapted = [t - self.time_list[0] for t in self.time_list]
 
         self.line1.set_data(time_list_adapted, self.data1)
@@ -70,6 +73,7 @@ class SerialPlotter:
         """
         Start the animation of the plot.
         """
+        
         anim_interval = self.time_scale * 1000 / self.frames_amount
 
         ani = animation.FuncAnimation(self.fig,

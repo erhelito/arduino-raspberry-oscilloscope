@@ -34,6 +34,7 @@ def convert_to_voltage(d1:int, d2:int, vref:int=3.3, adc_resolution:int=65535) -
     Returns:
         Tuple of voltages (v1, v2).
     """
+    
     v1 = (d1 / adc_resolution) * vref
     v2 = (d2 / adc_resolution) * vref
 
