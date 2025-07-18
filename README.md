@@ -12,7 +12,8 @@ The goal of this project is to create a simple oscilloscope using a Raspberry Pi
 - [ ] Add interface for FFT
 - [ ] Add interface for live plot
 - [x] Retrieve the data from the ADC and plot it
-- [ ] Add live plot feature
+- [x] Add live plot feature
+- [x] Add sliders for axis values
 - [ ] Add FFT feature
 - [ ] Maths mode
 - [ ] XY mode
